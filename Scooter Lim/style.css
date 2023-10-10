@@ -1,0 +1,78 @@
+body{
+    font-family: 'Tajawal', sans-serif;
+    background: #ffffff;
+    background-image: url("immagini\ scooter\ Lim/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenitore{
+    position: relative;
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    margin-top: 3.3%;
+    border-radius: 3%;
+     background-color: rgba(0,0,0,0.5);
+}
+
+/*Header*/
+ header img{
+    width: 250px;
+    margin-left: 40%;
+    margin-top: 6%;
+}
+
+header h1{
+    text-align: center;
+    color: rgb(2, 199, 2);
+    
+}
+
+/*Nav*/
+form{
+    background-color: rgb(2, 199, 2);
+    text-align: center;
+    margin: auto;
+    width: 800px;
+    height:50px;
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+/*Main*/
+main{
+    margin-left: 9%;
+    color: white;
+}
+
+main li {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.statocarica{
+    display: block;
+    font-weight: bold;
+}
+
+.barrarancione{
+    background-color: rgb(252, 188, 71);
+    height: 30px;
+    width: 400px;
+    border-radius: 3%;
+}
+
+.barraverde{
+    background-color: green;
+    height: 30px;
+    width: 700px;
+    border-radius: 3%;
+}
+
+.barrarossa{
+    background-color: rgb(255, 62, 62);
+    height: 30px;
+    width: 200px;
+    border-radius: 3%; 
+}
